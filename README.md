@@ -11,6 +11,11 @@ My current interests: PHP, Laravel, Vue.js, Python, Mathematics and Physics.
 
 ## GitHub Stats
 
+<p align="left">
+  <a href="https://github.com/macocci7/macocci7/"><img src="https://komarev.com/ghpvc/?username=macocci7" alt="macocci7" /></a>
+  <a href="https://github.com/macocci7"><img height="20" src="https://img.shields.io/github/followers/macocci7?label=follow&logo=github&style=flat" /></a>
+</p>
+
 <p align="left"> 
 
 <!--
@@ -20,11 +25,6 @@ My current interests: PHP, Laravel, Vue.js, Python, Mathematics and Physics.
 | <a href="https://github.com/macocci7/macocci7"><img align="center" src="https://github-readme-stats.vercel.app/api?username=macocci7&show_icons=true&theme=shadow_green&rank_icon=percentile&include_all_commits=true&theme=transparent&hide_border=true" alt="macocci7's github stats" /></a> | <a href="https://github.com/macocci7/macocci7"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=macocci7&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
 
-</p>
-
-<p align="left">
-  <a href="https://github.com/macocci7/macocci7/"><img src="https://komarev.com/ghpvc/?username=macocci7" alt="macocci7" /></a>
-  <a href="https://github.com/macocci7"><img height="20" src="https://img.shields.io/github/followers/macocci7?label=follow&logo=github&style=flat" /></a>
 </p>
 
 ## Languages and Tools
@@ -67,9 +67,11 @@ My current interests: PHP, Laravel, Vue.js, Python, Mathematics and Physics.
 
 ## Gists
 
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=0933e2c02cafb13cbe9286328ec8fe4d)](https://gist.github.com/macocci7/0933e2c02cafb13cbe9286328ec8fe4d/)
+[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=eee86e1c5b6982edbe578dd3f38f3714)](https://gist.github.com/macocci7/eee86e1c5b6982edbe578dd3f38f3714)
 
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=5ce900cc09d8bfe1c3a7ec2efe5412eb)](https://gist.github.com/macocci7/5ce900cc09d8bfe1c3a7ec2efe5412eb/)
+[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=0933e2c02cafb13cbe9286328ec8fe4d)](https://gist.github.com/macocci7/0933e2c02cafb13cbe9286328ec8fe4d)
+
+[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=5ce900cc09d8bfe1c3a7ec2efe5412eb)](https://gist.github.com/macocci7/5ce900cc09d8bfe1c3a7ec2efe5412eb)
 
 
 <!--
