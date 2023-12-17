@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+<p align="left">
+  <a href="https://github.com/macocci7/macocci7/">
+    <img src="https://komarev.com/ghpvc/?username=macocci7" alt="macocci7" />
+  </a>
+</p>
+
 <!--
 **macocci7/macocci7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
