@@ -79,6 +79,8 @@ My current interests: PHP, Laravel, Vue.js, Python, Mathematics and Physics.
 
 ## Gists
 
+[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=e78a3670faa4a8d7d023866db531cb40)](https://gist.github.com/macocci7/e78a3670faa4a8d7d023866db531cb40)
+
 [![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=fb211dbb976009ed8b29b8c3ec11789c)](https://gist.github.com/macocci7/fb211dbb976009ed8b29b8c3ec11789c)
 
 [![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=8591bbc307c30010cdc31ae8d75e0e67)](https://gist.github.com/macocci7/8591bbc307c30010cdc31ae8d75e0e67)
