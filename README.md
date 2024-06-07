@@ -85,6 +85,16 @@ An additional file selector prompt for you [laravel/prompts](https://github.com/
 
 https://github.com/laravel/prompts/assets/19181121/03c6f46d-a19d-4de0-af71-66b65c33e499
 
+### [Website Change Detector(alpha)](https://wcd.macocci7.work/)
+
+<img src="https://wcd.macocci7.work/img/new_website_form.png" width="400" />
+
+<img src="img/website_change_detector_features.png" width="400" />
+
+<img src="img/website_change_detector_recent_histories.png" width="400" />
+
+<img src="img/website_change_detector_recent_notifications.png" width="400" />
+
 ### [PHP Photo GPS](https://github.com/macocci7/PHP-PhotoGps)
 
 A simple library to get and format GPS data from a photo.
@@ -95,13 +105,27 @@ A simple library to get and format GPS data from a photo.
 
 a standalone library to use the [Illuminate\Validation](https://github.com/illuminate/validation) package outside the Laravel framework.
 
-### [Website Change Detector(alpha)](https://wcd.macocci7.work/)
+```php
+use Macocci7\PurephpValidation\Rules\Instance;
 
-<img src="https://wcd.macocci7.work/img/new_website_form.png" width="400" />
+$validator = Validator::make(
+    data: $data,
+    rules: [
+        'prop1' => Instance::of(Instance::class),
+        'prop2' => Instance::of([
+            // Macocci7\PurephpValidation\Rules\Instance
+            Instance::class,
+            // Macocci7\PurephpValidation\ValidatorFactory
+            Validator::class,
+            // Closure
+            (fn () => true)::class,
+        ]),
+        'prop3' => Instance::of('Closure'),
+    ],
+);
+```
 
-<img src="img/website_change_detector_features.png" width="400" />
-
-See more: [my public repositories](https://github.com/macocci7?tab=repositories)
+See more my works at: [my public repositories](https://github.com/macocci7?tab=repositories)
 
 ## Gists
 
