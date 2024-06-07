@@ -77,6 +77,32 @@ My current interests: PHP, Laravel, Vue.js, Python, Mathematics and Physics.
 
 -->
 
+## Works
+
+### [file selector prompt](https://github.com/macocci7/file-selector-prompt)
+
+An additional file selector prompt for you [laravel/prompts](https://github.com/laravel/prompts/) applications.
+
+https://github.com/laravel/prompts/assets/19181121/03c6f46d-a19d-4de0-af71-66b65c33e499
+
+### [PHP Photo GPS](https://github.com/macocci7/PHP-PhotoGps)
+
+A simple library to get and format GPS data from a photo.
+
+<img src="img/php_photo_gps.png" width="200" />
+
+### [Pure PHP Validation](https://github.com/macocci7/purephp-validation)
+
+a standalone library to use the [Illuminate\Validation](https://github.com/illuminate/validation) package outside the Laravel framework.
+
+### [Website Change Detector(alpha)](https://wcd.macocci7.work/)
+
+<img src="https://wcd.macocci7.work/img/new_website_form.png" width="400" />
+
+<img src="img/website_change_detector_features.png" width="400" />
+
+See more: [my public repositories](https://github.com/macocci7?tab=repositories)
+
 ## Gists
 
 [![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=e78a3670faa4a8d7d023866db531cb40)](https://gist.github.com/macocci7/e78a3670faa4a8d7d023866db531cb40)
