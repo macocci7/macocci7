@@ -4,9 +4,9 @@ I'm a full-stack web engineer.
 
 I feel happy when coding.
  
-My current interests: PHP, Laravel, Vue.js, Python, Mathematics and Physics.
+My current interests: PHP, Laravel, Vue.js, Python, Golang, Mathematics and Physics.
 
-- 🌱 I’m currently learning Python.
+- 🌱 I’m currently learning Python and Golang.
 - 👯 I’m looking to collaborate on somewhere.
 
 ## GitHub Stats
@@ -34,6 +34,7 @@ My current interests: PHP, Laravel, Vue.js, Python, Mathematics and Physics.
 <a href="https://www.php.net" target="_blank" rel="noreferrer"><img src="https://user-images.githubusercontent.com/25181517/183570228-6a040b9f-3ddf-47a2-a201-743121dac664.png" alt="php" width="40" height="40"/></a>
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/></a>
 <a href="https://www.python.org" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
+<a href="https://go.dev/" target="_blank" rel="noreferrer"><img src="https://user-images.githubusercontent.com/25181517/192149581-88194d20-1a37-4be8-8801-5dc0017ffbbe.png" alt="golang" width="40" height="40"/></a>
 <a href="https://jquery.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=jquery" width="40" height="40" alt="jQuery" /></a>
 <a href="https://vuejs.org/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" alt="vuejs" width="40" height="40"/></a>
 <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img width="40" src="https://user-images.githubusercontent.com/25181517/183890598-19a0ac2d-e88a-4005-a8df-1ee36782fde1.png" alt="TypeScript" title="TypeScript"/></a>
