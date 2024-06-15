@@ -82,7 +82,7 @@ My current interests: PHP, Laravel, Vue.js, Python, Golang, Mathematics and Phys
 
 ### [file selector prompt](https://github.com/macocci7/file-selector-prompt)
 
-An additional file selector prompt for you [laravel/prompts](https://github.com/laravel/prompts/) applications.
+An additional file selector prompt for your [laravel/prompts](https://github.com/laravel/prompts/) applications.
 
 https://github.com/laravel/prompts/assets/19181121/03c6f46d-a19d-4de0-af71-66b65c33e499
 
