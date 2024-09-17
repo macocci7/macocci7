@@ -6,7 +6,7 @@ I feel happy when coding.
  
 My current interests: PHP, Laravel, Vue.js, Angular, Python, Golang, Mathematics and Physics.
 
-- 🌱 I’m currently learning Angular, Python and Golang.
+- 🌱 I’m currently learning Angular and Golang.
 - 👯 I’m looking to collaborate on somewhere.
 
 ## GitHub Stats
