@@ -175,6 +175,16 @@ You can also draw a full size beautiful graph.
 
 See more my works at: [my public repositories](https://github.com/macocci7?tab=repositories)
 
+### [vue-calculator](https://github.com/macocci7/vue-calculator)
+
+A simple toy-like calculator on your browser.
+
+A demo project.
+
+[Demo Page](https://macocci7.github.io/vue-calculator/)
+
+<img src="https://github.com/macocci7/vue-calculator/blob/main/src/assets/vue-calculator.png?raw=true" width="250" height="390" />
+
 ## Gists
 
 [![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=e78a3670faa4a8d7d023866db531cb40)](https://gist.github.com/macocci7/e78a3670faa4a8d7d023866db531cb40)
