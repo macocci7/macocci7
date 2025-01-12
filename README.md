@@ -87,7 +87,7 @@ My current interests: PHP, Laravel, Vue.js, Angular, Python, Golang, Mathematics
 
 ## Works
 
-### [file selector prompt](https://github.com/macocci7/file-selector-prompt)
+### <img src="img/new-php-logo.png" width="34" height="18" /> [file selector prompt](https://github.com/macocci7/file-selector-prompt)
 
 An additional file selector prompt for your [laravel/prompts](https://github.com/laravel/prompts/) applications.
 
@@ -97,7 +97,7 @@ https://github.com/laravel/prompts/assets/19181121/03c6f46d-a19d-4de0-af71-66b65
 
 This feature has been included into [Community Prompts](https://github.com/artisan-build/community-prompts).
 
-### [Website Change Detector(alpha)](https://wcd.macocci7.work/)
+### <img src="img/laravel-logo.svg" width="24" height="24" /> [Website Change Detector(alpha)](https://wcd.macocci7.work/)
 
 <img src="https://wcd.macocci7.work/img/new_website_form.png" width="400" />
 
@@ -107,13 +107,13 @@ This feature has been included into [Community Prompts](https://github.com/artis
 
 <img src="img/website_change_detector_recent_notifications.png" width="400" />
 
-### [PHP Photo GPS](https://github.com/macocci7/PHP-PhotoGps)
+### <img src="img/new-php-logo.png" width="34" height="18" /> [PHP Photo GPS](https://github.com/macocci7/PHP-PhotoGps)
 
 A simple library to get and format GPS data from a photo.
 
 <img src="img/php_photo_gps.png" width="200" />
 
-### [Pure PHP Validation](https://github.com/macocci7/purephp-validation)
+### <img src="img/new-php-logo.png" width="34" height="18" /> [Pure PHP Validation](https://github.com/macocci7/purephp-validation)
 
 a standalone library to use the [Illuminate\Validation](https://github.com/illuminate/validation) package outside the Laravel framework.
 
@@ -137,7 +137,7 @@ $validator = Validator::make(
 );
 ```
 
-### [PHP-Plotter2d](https://github.com/macocci7/PHP-Plotter2d)
+### <img src="img/new-php-logo.png" width="34" height="18" /> [PHP-Plotter2d](https://github.com/macocci7/PHP-Plotter2d)
 
 A PHP Library to plot graphs and figures on a xy(-two-dimensional)-plane.
 
@@ -175,7 +175,7 @@ You can also draw a full size beautiful graph.
 
 See more my works at: [my public repositories](https://github.com/macocci7?tab=repositories)
 
-### [vue-calculator](https://github.com/macocci7/vue-calculator)
+### <img src="img/vue-js-logo.png" width="24" height="18" /> [vue-calculator](https://github.com/macocci7/vue-calculator)
 
 A simple toy-like calculator on your browser.
 
