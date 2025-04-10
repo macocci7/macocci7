@@ -4,9 +4,8 @@ I'm a full-stack web engineer.
 
 I feel happy when coding.
  
-My current interests: PHP, Laravel, Vue.js, Angular, Python, Golang, Mathematics and Physics.
+My current interests: PHP, Laravel, Vue.js, Python, Golang, Mathematics and Physics.
 
-- 🌱 I’m currently learning Angular and Golang.
 - 👯 I’m looking to collaborate on somewhere.
 
 ## GitHub Stats
@@ -86,6 +85,14 @@ My current interests: PHP, Laravel, Vue.js, Angular, Python, Golang, Mathematics
 -->
 
 ## Works
+
+### <img src="img/new-php-logo.png" width="34" height="18" /> [Bash Colorizer](https://github.com/macocci7/BashColorizer)
+
+<img src="img/bash_colorizer_02.png" width="500" height="250" />
+
+Bash Colorizer outputs strings in specified colors and attributes.
+
+Let's make your bash terminal full of colors!
 
 ### <img src="img/new-php-logo.png" width="34" height="18" /> [file selector prompt](https://github.com/macocci7/file-selector-prompt)
 
