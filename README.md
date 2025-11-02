@@ -185,6 +185,11 @@ final class UseInPhpUnitTest extends TestCase
         return $data;
     }
 
+    /**
+     * PHPDoc for PHPUnit 9.x
+     * @dataProvider provide_order_can_order_correctly
+     */
+    // Attribute for PHPUnit 10.x or later
     #[DataProvider('provide_order_can_order_correctly')]
     public function test_order_can_order_correctly(
         int $productId,
@@ -205,40 +210,40 @@ final class UseInPhpUnitTest extends TestCase
 
 results in:
 ```bash
-$ vendor/bin/phpunit ./examples/UseInPhpUnitTest.php --color=auto --testdox
-PHPUnit 10.5.19 by Sebastian Bergmann and contributors.
+$ ./vendor/bin/phpunit examples/UseInPhpUnitTest.php --testdox --color
+PHPUnit 10.5.58 by Sebastian Bergmann and contributors.
 
-Runtime:       PHP 8.1.26
+Runtime:       PHP 8.4.14
 
 ........................                                          24 / 24 (100%)
 
-Time: 00:00.053, Memory: 8.00 MB
+Time: 00:00.017, Memory: 8.00 MB
 
 Use In Php Unit (Macocci7\PhpCombination\UseInPhpUnit)
-✔ Order can order correctly with 1101,·S,·White,·1
-✔ Order can order correctly with 1101,·S,·White,·2
-✔ Order can order correctly with 1101,·S,·Black,·1
-✔ Order can order correctly with 1101,·S,·Black,·2
-✔ Order can order correctly with 1101,·M,·White,·1
-✔ Order can order correctly with 1101,·M,·White,·2
-✔ Order can order correctly with 1101,·M,·Black,·1
-✔ Order can order correctly with 1101,·M,·Black,·2
-✔ Order can order correctly with 1101,·L,·White,·1
-✔ Order can order correctly with 1101,·L,·White,·2
-✔ Order can order correctly with 1101,·L,·Black,·1
-✔ Order can order correctly with 1101,·L,·Black,·2
-✔ Order can order correctly with 1102,·S,·White,·1
-✔ Order can order correctly with 1102,·S,·White,·2
-✔ Order can order correctly with 1102,·S,·Black,·1
-✔ Order can order correctly with 1102,·S,·Black,·2
-✔ Order can order correctly with 1102,·M,·White,·1
-✔ Order can order correctly with 1102,·M,·White,·2
-✔ Order can order correctly with 1102,·M,·Black,·1
-✔ Order can order correctly with 1102,·M,·Black,·2
-✔ Order can order correctly with 1102,·L,·White,·1
-✔ Order can order correctly with 1102,·L,·White,·2
-✔ Order can order correctly with 1102,·L,·Black,·1
-✔ Order can order correctly with 1102,·L,·Black,·2
+ ✔ Order can order correctly with 1101,·S,·White,·1
+ ✔ Order can order correctly with 1101,·S,·White,·2
+ ✔ Order can order correctly with 1101,·S,·Black,·1
+ ✔ Order can order correctly with 1101,·S,·Black,·2
+ ✔ Order can order correctly with 1101,·M,·White,·1
+ ✔ Order can order correctly with 1101,·M,·White,·2
+ ✔ Order can order correctly with 1101,·M,·Black,·1
+ ✔ Order can order correctly with 1101,·M,·Black,·2
+ ✔ Order can order correctly with 1101,·L,·White,·1
+ ✔ Order can order correctly with 1101,·L,·White,·2
+ ✔ Order can order correctly with 1101,·L,·Black,·1
+ ✔ Order can order correctly with 1101,·L,·Black,·2
+ ✔ Order can order correctly with 1102,·S,·White,·1
+ ✔ Order can order correctly with 1102,·S,·White,·2
+ ✔ Order can order correctly with 1102,·S,·Black,·1
+ ✔ Order can order correctly with 1102,·S,·Black,·2
+ ✔ Order can order correctly with 1102,·M,·White,·1
+ ✔ Order can order correctly with 1102,·M,·White,·2
+ ✔ Order can order correctly with 1102,·M,·Black,·1
+ ✔ Order can order correctly with 1102,·M,·Black,·2
+ ✔ Order can order correctly with 1102,·L,·White,·1
+ ✔ Order can order correctly with 1102,·L,·White,·2
+ ✔ Order can order correctly with 1102,·L,·Black,·1
+ ✔ Order can order correctly with 1102,·L,·Black,·2
 
 OK (24 tests, 24 assertions)
 ```
