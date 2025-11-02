@@ -21,7 +21,7 @@ My current interests: PHP, Laravel, Vue.js, Python, Golang, Mathematics and Phys
   ![macocci7's GitHub Stats](https://github-readme-stats.vercel.app/api?username=macocci7&show_icons=true&theme=shadow_green&rank_icon=percentile&include_all_commits=true&theme=transparent)
 -->
 
-| <a href="https://github.com/macocci7/macocci7"><img align="center" src="https://github-readme-stats.vercel.app/api?username=macocci7&show_icons=true&theme=shadow_green&rank_icon=percentile&include_all_commits=true&theme=transparent&hide_border=true" alt="macocci7's github stats" /></a> | <a href="https://github.com/macocci7/macocci7"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=macocci7&layout=compact&theme=buefy&hide_border=true" /></a> |
+| <a href="https://github.com/macocci7/macocci7"><img align="center" src="https://github-readme-stats.vercel.app/api?username=macocci7&show_icons=true&rank_icon=percentile&include_all_commits=true&theme=default&hide_border=true" alt="macocci7's github stats" /></a> | <a href="https://github.com/macocci7/macocci7"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=macocci7&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
 
 </p>
@@ -122,28 +122,125 @@ A simple library to get and format GPS data from a photo.
 
 <img src="img/php_photo_gps.png" width="200" />
 
-### <img src="img/new-php-logo.png" width="34" height="18" /> [Pure PHP Validation](https://github.com/macocci7/purephp-validation)
+### <img src="img/new-php-logo.png" width="34" height="18" /> [PHP Combination](https://github.com/macocci7/PHP-Combination)
 
-a standalone library to use the [Illuminate\Validation](https://github.com/illuminate/validation) package outside the Laravel framework.
+A simple PHP library to make combinations from array elements.
+
+`PHP-Combination` can:
+- create all combinations
+- sort combinations
+- create pairs
+- create all combinations of N elements
+- create all combinations of A 2 B elements
+- create all combinations between multiple arrays
+- be used in data provider of PHPUnit
+
+#### Basic Usage
 
 ```php
-use Macocci7\PurephpValidation\Rules\Instance;
+use Macocci7\PhpCombination\Combination;
 
-$validator = Validator::make(
-    data: $data,
-    rules: [
-        'prop1' => Instance::of(Instance::class),
-        'prop2' => Instance::of([
-            // Macocci7\PurephpValidation\Rules\Instance
-            Instance::class,
-            // Macocci7\PurephpValidation\ValidatorFactory
-            Validator::class,
-            // Closure
-            (fn () => true)::class,
-        ]),
-        'prop3' => Instance::of('Closure'),
-    ],
-);
+$c = new Combination();
+$items = [ 'A', 'B', 'C', ];
+
+foreach ($c->all($items) as $index => $item) {
+    echo sprintf(
+        "%d: (%s)\n",
+        $index,
+        implode(', ', $item)
+    );
+}
+```
+results in:
+```bash
+0: (A, B, C)
+1: (A, B)
+2: (A, C)
+3: (A)
+4: (B, C)
+5: (B)
+6: (C)
+```
+
+#### Using in PHPUnit
+
+```php
+use Macocci7\PhpCombination\Combination;
+
+final class UseInPhpUnitTest extends TestCase
+{
+    public static function provide_order_can_order_correctly(): array
+    {
+        $products = [ 1101, 1102, ];
+        $sizes = [ 'S', 'M', 'L', ];
+        $colors = [ 'White', 'Black', ];
+        $amount = [ 1, 2, ];
+        $c = new Combination();
+        $data = [];
+        foreach (
+            $c->fromArrays([$products, $sizes, $colors, $amount]) as $e
+        ) {
+            $data[implode(', ', $e)] = $e;
+        }
+        return $data;
+    }
+
+    #[DataProvider('provide_order_can_order_correctly')]
+    public function test_order_can_order_correctly(
+        int $productId,
+        string $size,
+        string $color,
+        int $amount
+    ): void {
+        $u = new UseInPhpUnit();
+        $this->assertTrue($u->order(
+            $productId,
+            $size,
+            $color,
+            $amount
+        ));
+    }
+}
+```
+
+results in:
+```bash
+$ vendor/bin/phpunit ./examples/UseInPhpUnitTest.php --color=auto --testdox
+PHPUnit 10.5.19 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.1.26
+
+........................                                          24 / 24 (100%)
+
+Time: 00:00.053, Memory: 8.00 MB
+
+Use In Php Unit (Macocci7\PhpCombination\UseInPhpUnit)
+✔ Order can order correctly with 1101,·S,·White,·1
+✔ Order can order correctly with 1101,·S,·White,·2
+✔ Order can order correctly with 1101,·S,·Black,·1
+✔ Order can order correctly with 1101,·S,·Black,·2
+✔ Order can order correctly with 1101,·M,·White,·1
+✔ Order can order correctly with 1101,·M,·White,·2
+✔ Order can order correctly with 1101,·M,·Black,·1
+✔ Order can order correctly with 1101,·M,·Black,·2
+✔ Order can order correctly with 1101,·L,·White,·1
+✔ Order can order correctly with 1101,·L,·White,·2
+✔ Order can order correctly with 1101,·L,·Black,·1
+✔ Order can order correctly with 1101,·L,·Black,·2
+✔ Order can order correctly with 1102,·S,·White,·1
+✔ Order can order correctly with 1102,·S,·White,·2
+✔ Order can order correctly with 1102,·S,·Black,·1
+✔ Order can order correctly with 1102,·S,·Black,·2
+✔ Order can order correctly with 1102,·M,·White,·1
+✔ Order can order correctly with 1102,·M,·White,·2
+✔ Order can order correctly with 1102,·M,·Black,·1
+✔ Order can order correctly with 1102,·M,·Black,·2
+✔ Order can order correctly with 1102,·L,·White,·1
+✔ Order can order correctly with 1102,·L,·White,·2
+✔ Order can order correctly with 1102,·L,·Black,·1
+✔ Order can order correctly with 1102,·L,·Black,·2
+
+OK (24 tests, 24 assertions)
 ```
 
 ### <img src="img/new-php-logo.png" width="34" height="18" /> [PHP-Plotter2d](https://github.com/macocci7/PHP-Plotter2d)
@@ -195,6 +292,8 @@ A demo project.
 <img src="https://github.com/macocci7/vue-calculator/blob/main/src/assets/vue-calculator.png?raw=true" width="250" height="390" />
 
 ## Gists
+
+[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=00db48fb161455cfc7ef4e96f3f2cf98)](https://gist.github.com/macocci7/00db48fb161455cfc7ef4e96f3f2cf98)
 
 [![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=e78a3670faa4a8d7d023866db531cb40)](https://gist.github.com/macocci7/e78a3670faa4a8d7d023866db531cb40)
 
