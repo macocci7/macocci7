@@ -21,7 +21,7 @@ My current interests: PHP, Laravel, Vue.js, Python, Golang, Mathematics and Phys
   ![macocci7's GitHub Stats](https://github-readme-stats.vercel.app/api?username=macocci7&show_icons=true&theme=shadow_green&rank_icon=percentile&include_all_commits=true&theme=transparent)
 -->
 
-| <a href="https://github.com/macocci7/macocci7"><img align="center" src="https://github-readme-stats.vercel.app/api?username=macocci7&show_icons=true&rank_icon=percentile&include_all_commits=true&theme=default&hide_border=true" alt="macocci7's github stats" /></a> | <a href="https://github.com/macocci7/macocci7"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=macocci7&layout=compact&theme=buefy&hide_border=true" /></a> |
+| <a href="https://github.com/macocci7/macocci7"><img align="center" src="https://github-readme-stats-macocci7.vercel.app/api?username=macocci7&show_icons=true&rank_icon=percentile&include_all_commits=true&theme=default&hide_border=true" alt="macocci7's github stats" /></a> | <a href="https://github.com/macocci7/macocci7"><img align="center" src="https://github-readme-stats-macocci7.vercel.app/api/top-langs/?username=macocci7&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
 
 </p>
