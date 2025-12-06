@@ -298,19 +298,19 @@ A demo project.
 
 ## Gists
 
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=00db48fb161455cfc7ef4e96f3f2cf98)](https://gist.github.com/macocci7/00db48fb161455cfc7ef4e96f3f2cf98)
+[![Gist Card](https://github-readme-stats-macocci7.vercel.app/api/gist?id=00db48fb161455cfc7ef4e96f3f2cf98)](https://gist.github.com/macocci7/00db48fb161455cfc7ef4e96f3f2cf98)
 
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=e78a3670faa4a8d7d023866db531cb40)](https://gist.github.com/macocci7/e78a3670faa4a8d7d023866db531cb40)
+[![Gist Card](https://github-readme-stats-macocci7.vercel.app/api/gist?id=e78a3670faa4a8d7d023866db531cb40)](https://gist.github.com/macocci7/e78a3670faa4a8d7d023866db531cb40)
 
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=fb211dbb976009ed8b29b8c3ec11789c)](https://gist.github.com/macocci7/fb211dbb976009ed8b29b8c3ec11789c)
+[![Gist Card](https://github-readme-stats-macocci7.vercel.app/api/gist?id=fb211dbb976009ed8b29b8c3ec11789c)](https://gist.github.com/macocci7/fb211dbb976009ed8b29b8c3ec11789c)
 
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=8591bbc307c30010cdc31ae8d75e0e67)](https://gist.github.com/macocci7/8591bbc307c30010cdc31ae8d75e0e67)
+[![Gist Card](https://github-readme-stats-macocci7.vercel.app/api/gist?id=8591bbc307c30010cdc31ae8d75e0e67)](https://gist.github.com/macocci7/8591bbc307c30010cdc31ae8d75e0e67)
 
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=eee86e1c5b6982edbe578dd3f38f3714)](https://gist.github.com/macocci7/eee86e1c5b6982edbe578dd3f38f3714)
+[![Gist Card](https://github-readme-stats-macocci7.vercel.app/api/gist?id=eee86e1c5b6982edbe578dd3f38f3714)](https://gist.github.com/macocci7/eee86e1c5b6982edbe578dd3f38f3714)
 
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=0933e2c02cafb13cbe9286328ec8fe4d)](https://gist.github.com/macocci7/0933e2c02cafb13cbe9286328ec8fe4d)
+[![Gist Card](https://github-readme-stats-macocci7.vercel.app/api/gist?id=0933e2c02cafb13cbe9286328ec8fe4d)](https://gist.github.com/macocci7/0933e2c02cafb13cbe9286328ec8fe4d)
 
-[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=5ce900cc09d8bfe1c3a7ec2efe5412eb)](https://gist.github.com/macocci7/5ce900cc09d8bfe1c3a7ec2efe5412eb)
+[![Gist Card](https://github-readme-stats-macocci7.vercel.app/api/gist?id=5ce900cc09d8bfe1c3a7ec2efe5412eb)](https://gist.github.com/macocci7/5ce900cc09d8bfe1c3a7ec2efe5412eb)
 
 
 <!--
